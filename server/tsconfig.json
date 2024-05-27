@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "lib": [
+      "esnext"
+    ],
+    "module": "CommonJS",
+    "target": "ES6",
+    "outDir": "./build",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
